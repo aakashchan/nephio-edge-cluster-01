@@ -36,17 +36,17 @@ status:
     message: injected from FiveGCoreTopology "fivegcoretopology-sample" UPF name "agg-layer-2"
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-1-n3.upf.Injected
     status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    reason: ErrorDuringInjection
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge-1-internet not correct'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-1-n4.upf.Injected
     status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    reason: ErrorDuringInjection
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge-1-internet not correct'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-1-n6.upf.Injected
     status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    reason: ErrorDuringInjection
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge-1-internet not correct'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-1-internet.upf.Injected
     status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    reason: ErrorDuringInjection
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge-1-internet not correct'
